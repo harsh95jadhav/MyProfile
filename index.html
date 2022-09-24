@@ -8,6 +8,21 @@
         header{
             color: blue;
             background-color: aqua;
+            text-align: right;
+        }
+        #nav_bar,a{
+            font-size: 22px;
+            font-weight: 200;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            color: blue;
+            background-color: rgb(224, 251, 252);
+            
+        }
+        .frame{
+            border-right: none;
+            background-color: rgb(224, 251, 252);
         }
     </style>
 </head>
@@ -21,7 +36,7 @@
         </p>
     </header>
     <hr>
-    <nav>
+    <nav id="nav_bar">
         <a href="home.html" target="My_Frame"> Home </a>&nbsp;&nbsp;&nbsp;
         <a href="techStack.html" target="My_Frame"> Tech Stack </a>&nbsp;&nbsp;&nbsp;
         <a href="projectDetail.html" target="My_Frame"> Project Details </a>&nbsp;&nbsp;&nbsp;
@@ -33,7 +48,7 @@
 
 
 
-    <iframe name="My_Frame" width="900px" height="400px"></iframe>
+    <iframe name="My_Frame" width="1050px" height="400px" class="frame"></iframe>
 
     <footer>
         <p>
