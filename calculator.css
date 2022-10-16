@@ -1,0 +1,20 @@
+table,td,tr {
+    border: 1px solid black ;
+    padding: 20px 20px 20px 20px;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px 2px rgb(212, 193, 193);
+    width: 300px;
+    height: max-content;
+    
+
+}
+td {
+    background-color: rgb(250, 182, 56);
+}
+#result{
+    background-color: white;
+}
+caption{
+    font-size: larger;
+    font-weight: bold;
+}
